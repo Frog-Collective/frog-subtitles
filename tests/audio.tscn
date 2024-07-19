@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://bk5lpuea47tqj"]
+
+[ext_resource type="AudioStream" uid="uid://dvke8f1l4n3nr" path="res://tests/TestVideo.ogg" id="1_382qr"]
+[ext_resource type="Script" path="res://addons/FrogSubtitles/Nodes/AudioStreamSubtitles.cs" id="2_44t8p"]
+[ext_resource type="Resource" uid="uid://du2vqml03ingk" path="res://tests/TestSubtitles.srt" id="3_hsylj"]
+
+[node name="Root" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_382qr")
+autoplay = true
+
+[node name="AudioStreamSubtitles" type="RichTextLabel" parent="AudioStreamPlayer" node_paths=PackedStringArray("player")]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/normal_font_size = 12
+bbcode_enabled = true
+text = "[center]{0}[/center]"
+scroll_active = false
+script = ExtResource("2_44t8p")
+player = NodePath("..")
+subtitles = ExtResource("3_hsylj")

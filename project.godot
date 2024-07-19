@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="FrogSubtitles"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+config/icon="res://Icon.png"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+
+[dotnet]
+
+project/assembly_name="FrogSubtitles"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/FrogSubtitles/plugin.cfg")

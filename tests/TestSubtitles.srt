@@ -1,0 +1,43 @@
+1
+00:00:05,609 --> 00:00:08,492
+Hello l'ami, so you're a prospector now?
+
+2
+00:00:09,593 --> 00:00:10,278
+{\a2}Well...
+
+3
+00:00:10,303 --> 00:00:11,944
+<b>There's</b> not {b}much{/b} to it you know.
+
+4
+00:00:12,171 --> 00:00:15,889
+<i>We just earn</i> our {i}keep by wandering{/i} this land to find riches.
+
+5
+00:00:16,025 --> 00:00:17,694
+<u>But when</u> we find {u}something{/u}
+
+6
+00:00:18,132 --> 00:00:19,163
+<font color="yellow">well...</font>
+
+7
+00:00:20,000 --> 00:00:21,897
+<font color="#DB2937">The guild wants its cut.</font>
+
+8
+00:00:22,311 --> 00:00:25,500
+We start in the spring and work until the first snow
+
+9
+00:00:26,413 --> 00:00:27,663
+Because  when it comes...
+
+10
+00:00:30,500 --> 00:00:32,194
+Better hope you've met your quota
+
+11
+00:00:33,391 --> 00:00:36,600
+Or you will end up just like the rest of the land...
