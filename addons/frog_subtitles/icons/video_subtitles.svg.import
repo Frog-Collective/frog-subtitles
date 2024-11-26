@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvu37ivapu3l4"
-path="res://.godot/imported/VideoSubtitles.svg-94844fe2451967bed438a44731022fee.ctex"
+path="res://.godot/imported/video_subtitles.svg-7914c1e52071e6c778bda56a680b8eb5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/FrogSubtitles/Icons/VideoSubtitles.svg"
-dest_files=["res://.godot/imported/VideoSubtitles.svg-94844fe2451967bed438a44731022fee.ctex"]
+source_file="res://addons/frog_subtitles/icons/video_subtitles.svg"
+dest_files=["res://.godot/imported/video_subtitles.svg-7914c1e52071e6c778bda56a680b8eb5.ctex"]
 
 [params]
 

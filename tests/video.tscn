@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8w2hs2ea34dw"]
 
-[ext_resource type="Script" path="res://addons/FrogSubtitles/Nodes/VideoStreamSubtitles.cs" id="1_bfoiv"]
-[ext_resource type="VideoStream" path="res://tests/TestVideo.ogv" id="1_rssa2"]
-[ext_resource type="Resource" uid="uid://du2vqml03ingk" path="res://tests/TestSubtitles.srt" id="3_y3a7i"]
+[ext_resource type="Script" path="res://addons/frog_subtitles/nodes/VideoStreamSubtitles.cs" id="1_bfoiv"]
+[ext_resource type="VideoStream" path="res://tests/test_video.ogv" id="1_rssa2"]
+[ext_resource type="Resource" uid="uid://du2vqml03ingk" path="res://tests/test_subtitles.srt" id="3_y3a7i"]
 
 [node name="Root" type="Control"]
 layout_mode = 3

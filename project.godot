@@ -13,7 +13,7 @@ config_version=5
 config/name="FrogSubtitles"
 config/tags=PackedStringArray("plugin")
 config/features=PackedStringArray("4.3", "C#", "Forward Plus")
-config/icon="res://Icon.png"
+config/icon="res://icon.png"
 
 [display]
 
@@ -26,4 +26,4 @@ project/assembly_name="FrogSubtitles"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/FrogSubtitles/plugin.cfg")
+enabled=PackedStringArray("res://addons/frog_subtitles/plugin.cfg")

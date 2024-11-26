@@ -6,16 +6,16 @@ namespace FrogSubtitle;
 [Tool]
 public partial class SubtitlesPlugin : EditorPlugin
 {
-    private SubtitlesImportPlugin importPlugin;
+    private SubtitlesImportPlugin? importPlugin;
 
     public override void _EnterTree()
     {
-        var videoStreamSubtitlesScript = GD.Load<Script>("res://addons/FrogSubtitles/Nodes/VideoStreamSubtitles.cs");
-        var videoStreamSubtitlesIcon = GD.Load<Texture2D>("res://addons/FrogSubtitles/Icons/VideoSubtitles.svg");
+        Script videoStreamSubtitlesScript = GD.Load<Script>("res://addons/frog_subtitles/nodes/VideoStreamSubtitles.cs");
+        Texture2D videoStreamSubtitlesIcon = GD.Load<Texture2D>("res://addons/frog_subtitles/icons/video_subtitles.svg");
         this.AddCustomType(nameof(VideoStreamSubtitles), nameof(RichTextLabel), videoStreamSubtitlesScript, videoStreamSubtitlesIcon);
-		
-        var audioStreamSubtitlesScript = GD.Load<Script>("res://addons/FrogSubtitles/Nodes/AudioStreamSubtitles.cs");
-        var audioStreamSubtitlesIcon = GD.Load<Texture2D>("res://addons/FrogSubtitles/Icons/AudioSubtitles.svg");
+
+        Script audioStreamSubtitlesScript = GD.Load<Script>("res://addons/frog_subtitles/nodes/AudioStreamSubtitles.cs");
+        Texture2D audioStreamSubtitlesIcon = GD.Load<Texture2D>("res://addons/frog_subtitles/icons/audio_subtitles.svg");
         this.AddCustomType(nameof(AudioStreamSubtitles), nameof(RichTextLabel), audioStreamSubtitlesScript, audioStreamSubtitlesIcon);
 
         this.importPlugin = new SubtitlesImportPlugin();
