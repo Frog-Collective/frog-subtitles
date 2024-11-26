@@ -1,11 +1,19 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
 
 config/name="FrogSubtitles"
-config/features=PackedStringArray("4.2", "C#", "Forward Plus")
-config/icon="res://Icon.png"
 config/tags=PackedStringArray("plugin")
+config/features=PackedStringArray("4.3", "C#", "Forward Plus")
+config/icon="res://Icon.png"
 
 [display]
 
