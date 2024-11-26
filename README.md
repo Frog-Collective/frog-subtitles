@@ -1,4 +1,4 @@
-# <img src="Icon.png" width="48"> Frog Subtitles
+# <img src="icon.png" width="48"> Frog Subtitles
 
 ![](https://img.shields.io/static/v1?label=Godot&message=4.0&color=blue&logo=godotengine)
 ![](https://img.shields.io/static/v1?label=Godot&message=4.1&color=blue&logo=godotengine)
