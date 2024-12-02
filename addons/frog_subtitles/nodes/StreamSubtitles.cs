@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Godot;
 
-namespace FrogSubtitle;
+namespace Frog;
 
 public abstract partial class StreamSubtitles : RichTextLabel
 {

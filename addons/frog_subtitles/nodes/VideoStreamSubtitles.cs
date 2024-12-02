@@ -1,6 +1,6 @@
 using Godot;
 
-namespace FrogSubtitle;
+namespace Frog;
 
 public partial class VideoStreamSubtitles : StreamSubtitles
 {

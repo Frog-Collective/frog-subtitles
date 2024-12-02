@@ -1,7 +1,7 @@
 #if TOOLS
 using Godot;
 
-namespace FrogSubtitle;
+namespace Frog;
 
 [Tool]
 public partial class SubtitlesPlugin : EditorPlugin

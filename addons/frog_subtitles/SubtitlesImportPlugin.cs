@@ -8,8 +8,7 @@ using System.Text.RegularExpressions;
 using Godot;
 using Godot.Collections;
 
-namespace FrogSubtitle;
-
+namespace Frog;
 
 public partial class SubtitlesImportPlugin : EditorImportPlugin
 {
