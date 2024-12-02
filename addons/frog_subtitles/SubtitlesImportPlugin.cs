@@ -59,7 +59,8 @@ public partial class SubtitlesImportPlugin : EditorImportPlugin
                 content.Replace("</font>", "[/color]");
                 string contentString = content.ToString();
                 contentString = colorRegex.Replace(contentString, match => $"[color={match.Groups[1].Value}]");
-                contentString = linePositionRegex.Replace(contentString, match => {
+                contentString = linePositionRegex.Replace(contentString, match =>
+                {
                     string result = string.Empty;
                     if (int.TryParse(match.Groups[1].Value, out int lineCount))
                     {
@@ -125,7 +126,7 @@ public partial class SubtitlesImportPlugin : EditorImportPlugin
                                 state = ReaderState.ReadId;
                                 break;
                             }
-                            
+
                             if (content.Length > 0)
                             {
                                 content.Append('\n');
@@ -160,7 +161,7 @@ public partial class SubtitlesImportPlugin : EditorImportPlugin
             Entries = new Array<SubtitleEntry>(entries),
         };
 
-        string filename = $"{savePath}.{_GetSaveExtension()}";
+        string filename = $"{savePath}.{this._GetSaveExtension()}";
         return ResourceSaver.Save(subtitles, filename);
     }
 

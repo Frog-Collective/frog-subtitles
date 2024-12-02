@@ -32,11 +32,11 @@ public abstract partial class StreamSubtitles : RichTextLabel
             {
                 if (currentTime >= entry.StartTime && currentTime <= entry.EndTime)
                 {
-                    currentEntry = entry;
+                    this.currentEntry = entry;
                     break;
                 }
             }
-            
+
             if (this.currentEntry != null)
             {
                 if (string.IsNullOrEmpty(this.template))
